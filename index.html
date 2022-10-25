@@ -10,6 +10,7 @@
     />
     <link rel="shortcut icon" href="./images/favicon.ico" />
     <link rel="stylesheet" href="./plugins/headline/headline.css" />
+    <link rel="stylesheet" href="./plugins/magnify_popup/magnify_popup.css" />
     <link rel="stylesheet" href="./css/style.css" />
     <title>Modern CV</title>
   </head>
@@ -254,10 +255,78 @@
         </div>
       </section>
 
+      <section class="work">
+        <h1 class="section_heading">My Works & Review</h1>
+
+        <div class="wrapper">
+          <div class="slider">
+            Here will be slider
+          </div>
+
+          <div class="portfolio">
+            <div class="tabs">
+              <ul>
+                <li><a class="active" href="#" data-filter="*">All</a></li>
+                <li><a href="#" data-filter=".design">UI/UX Design</a></li>
+                <li><a href="#" data-filter=".frontend">Frontend</a></li>
+                <li><a href="#" data-filter=".backend">Backend</a></li>
+              </ul>
+            </div>
+
+            <div class="portfolio_wrapper">
+              <div class="item design">
+                <a class="magnify" href="./images/1.jpg" title="something">
+                  <img src="./images/1.jpg" alt="">
+                </a>
+              </div>
+
+              <div class="item frontend">
+                <a class="magnify" href="./images/2.jpg" title="image2">
+                  <img src="./images/2.jpg" alt="">
+                </a>
+              </div>
+
+              <div class="item backend">
+                <a class="magnify" href="./images/3.jpg" title="image3">
+                  <img src="./images/3.jpg" alt="">
+                </a>
+              </div>
+
+              <div class="item design">
+                <a class="magnify" href="./images/4.jpg" title="something">
+                  <img src="./images/4.jpg" alt="">
+                </a>
+              </div>
+
+              <div class="item design">
+                <a class="magnify" href="./images/5.jpg" title="something">
+                  <img src="./images/5.jpg" alt="">
+                </a>
+              </div>
+
+              <div class="item backend">
+                <a class="magnify" href="./images/3.jpg" title="something">
+                  <img src="./images/3.jpg" alt="">
+                </a>
+              </div>
+
+              <div class="item frontend">
+                <a class="magnify" href="./images/1.jpg" title="something">
+                  <img src="./images/1.jpg" alt="">
+                </a>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </section>
+
     </main>
     <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
     <script src="./plugins/headline/headline.js"></script>
     <script src="./plugins/ripple.js"></script>
+    <script src="./plugins/isotope.js"></script>
+    <script src="./plugins/magnify_popup/magnify_popup.js"></script>
     <script src="./js/app.js"></script>
   </body>
 </html>
