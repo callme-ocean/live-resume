@@ -402,3 +402,43 @@ section.skills .skills_wrapper .skill-box .progress_wrap .progress_bar .tooltip 
     font-size: 16px;
     text-transform: uppercase;
 }
+
+section.counter_section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background: var(--dark-gray);  
+}
+
+section.counter_section > div {
+    display: flex;
+    align-items: center;
+}
+
+section.counter_section > div i {
+    font-size: 42px;
+    margin-right: 8px;
+}
+
+section.counter_section > div:nth-child(1) i {
+    color: var(--yellow);
+}
+
+section.counter_section > div:nth-child(2) i {
+    color: var(--success);
+}
+
+section.counter_section > div:nth-child(3) i {
+    color: var(--dribbble);
+}
+
+section.counter_section > div h3 {
+    font-size: 22px;
+    font-weight: 600;
+    color: var(--fade);
+    margin-bottom: 8px;
+}
+
+section.counter_section > div h5 {
+    font-size: 14px;
+    color: var(--fade);
+}
