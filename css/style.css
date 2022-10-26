@@ -635,3 +635,119 @@ footer {
     font-size: 14px;
     color: var(--ternary);
 }
+
+
+/* Media Queries */
+@media (max-width: 1280px) {
+    .container {
+        max-width: 90%;
+    }
+}
+
+@media (max-width: 1024px) {
+    section.profile {
+        flex-direction: column;
+        align-items: flex-start; 
+        clip-path: none;
+    }
+
+    section.profile .left {
+        margin-bottom: 2rem;
+    }
+
+    section.profile .right {
+        align-self: flex-end;
+    }
+
+    
+    section.work .wrapper {
+        display: block;
+    }
+
+    section.work .wrapper .slider_wrapper {
+        margin-bottom: 8rem;
+    }
+
+    /* section.partners {
+        margin-top: 4rem;
+    } */
+}
+
+@media (max-width: 970px) {
+    section.skills .content {
+        display: block;
+    }
+
+    section.skills .content .left {
+        margin-bottom: 4rem;
+    }
+
+    section.partners .brands_wrapper {
+        flex-wrap: wrap;
+    }
+
+    section.partners .brands_wrapper img {
+        margin-bottom: 2rem;
+    }
+}
+
+@media (max-width: 900px) {
+    section.about .content {
+        display: block;
+    }
+
+    section.about .content .left {
+        margin-bottom: 4rem;
+    }
+
+    section.contact .wrapper {
+        display: block;
+    }
+
+    section.contact .wrapper .left {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    section.counter_section {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    section.counter_section > div {
+        margin-bottom: 2rem;
+    }
+}
+
+@media (max-width: 576px) {
+    section.profile {
+        align-items: center;
+    }
+
+    section.profile .right {
+        align-self: center;
+    }
+
+    section.profile .left {
+        margin-bottom: 4rem;
+    }
+
+    section.work .wrapper .portfolio .tabs ul {
+        flex-wrap: wrap;
+    }
+
+    section.work .wrapper .portfolio .tabs ul li {
+        margin-bottom: 4rem;
+    }
+
+    section.work .wrapper .portfolio .portfolio_wrapper {
+        margin-top: 0;
+    }
+
+    section.contact .wrapper .right .form_group {
+        grid-template-columns: 1fr;
+    }
+}
