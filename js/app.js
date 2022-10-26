@@ -102,9 +102,9 @@ $(document).ready(function() {
             e.target.classList.add('active');
         });
     })
-    // image filter - start
+    // image filter - end
 
-    
+
 
     // Magnify Popup
     $('.magnify').magnificPopup({
@@ -115,6 +115,12 @@ $(document).ready(function() {
         zoom : {
             enabled : true
         }
+    });
+
+    // Slick slider
+    $('.slider').slick({
+        arrows: false,
+        autoplay: true
     });
 
 });
